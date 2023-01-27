@@ -63,6 +63,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .headers ul{
@@ -131,13 +132,13 @@ p.title-text {
 }
 
 .title-image {
-    height: 15em;
-    width: 30em;
+    height: 18em;
+    width: 20em;
 }
 
 /* Section Information */
 
-#info {
+#info, #about {
     padding: 3% 20%;
 }
 
@@ -215,3 +216,60 @@ footer {
     background-color: #1f2937;
     padding: 2%;
 }
+
+.about-text p {
+    color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 3%;
+    text-align: left;
+}
+
+.about-image img {
+    height: 11em;
+    width: 11em;
+    padding: 3%;
+}
+
+#rules {
+    padding: 3% 10%;
+}
+
+.rule-box ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 5% 0;
+}
+
+.rule-box li{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.icons {
+    color: #3882f6;
+    padding: 3%;
+}
+
+.rule-text {
+    color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 3%;
+}
+
+#hero.fixed {
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+
+
+

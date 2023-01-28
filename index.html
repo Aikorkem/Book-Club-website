@@ -10,67 +10,65 @@
     <title>📚 "One more Book" Book Club</title>
 </head>
 <body>
-    <section id = "hero" class="fixed">
-        <div>
-            <nav class="headers">
-                <a href="./index.html" class = "logo">📚 One More Book</a>
-                <ul>
-                    <li><a href="./pages/about.html" class="headers-link">About</a></li>
-                    <li><a href="./pages/rules.html" class="headers-link">Rules</a></li>
-                    <li><a href="#call-to-action" class="headers-link">Join</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
-    <section id = "hero">
-        <div class = "title">
+    <header>
+        <nav class="headers">
+            <a href="#" class = "logo">📚 One More Book</a>
+            <ul>
+                <li><a href="./pages/about.html" class="headers-link">About</a></li>
+                <li><a href="./pages/rules.html" class="headers-link">Rules</a></li>
+                <li><a href="#call-to-action" class="headers-link">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id = "hero">
             <div class="title-item">
                 <h1 class="title-text">Books are still cool</h1>
                 <p class="title-text">More than 1000 people started reading with us in 2 years! Let's read 24 books this year!</p>
                 <button type="button">Join now</button>
             </div>
-            <div class = "title-item">
+            <picture class = "title-item">
                 <img class = "title-image" src="./images/lets-read.jfif" alt="Books and coffee">
+            </picture>
+        </section>
+        <section id = "info">
+            <h2>How it works</h2>
+            <div class = "info-box">
+                <figure class="info-item">
+                    <img src="./images/join0.svg" alt="Join the club"  >
+                    <figcaption><p>Join the book club</p></figcaption>
+                </figure>
+                <figure class="info-item">
+                    <img src="./images/join1.svg" alt="Pick"  >
+                    <figcaption><p>Pick your language group</p></figcaption>
+                </figure>
+                <figure class="info-item">
+                    <img src="./images/read2.svg" alt="Read"  >
+                    <figcaption><p>Read the chosen book</p></figcaption>
+                </figure>
+                <figure class="info-item">
+                    <img src="./images/meet3.svg" alt="Meet"  >
+                    <figcaption><p>Meet every 2 weeks</p></figcaption>
+                </figure>
             </div>
-        </div>
-    </section>
-    <section id = "info">
-        <h2>How it works</h2>
-        <div class = "info-box">
-            <div class="info-item">
-                <img src="./images/join0.svg" alt="Join the club"  >
-                <p>Join the book club</p>
-            </div>
-            <div class="info-item">
-                <img src="./images/join1.svg" alt="Pick"  >
-                <p>Pick your language group</p>
-            </div>
-            <div class="info-item">
-                <img src="./images/read2.svg" alt="Read"  >
-                <p>Read the chosen book</p>
-            </div>
-            <div class="info-item">
-                <img src="./images/meet3.svg" alt="Meet"  >
-                <p>Meet every 2 weeks</p>
-            </div>
-        </div>
-    </section>
-    <section id="quote">
-        <div>
-            <h4>The book club has made such a positive impact on my life. 
+        </section>
+        <section id="quote">
+            <blockquote>
+                <p>The book club has made such a positive impact on my life. 
                 I joined to start reading more books and to meet new people, and it has exceeded my expectations. 
                 I get to meet a lot of like-minded people, read some amazing books across a variety of topics.
-            </h4>
-            <h5><strong>- Emily</strong></h5>
-        </div>
-    </section>
-    <section id="call-to-action">
-        <div class="cta-item">
-            <h4>You'll like it, we promise!</h4>
-            <p>Join and start your reading spree!</p>
-        </div>
-        <button type="button" class="cta-button">Join now</button>
-    </section>
+                </p>
+            </blockquote>
+            <p><strong>- Emily</strong></p>
+        </section>
+        <section id="call-to-action">
+            <div class="cta-item">
+                <h3>You'll like it, we promise!</h3>
+                <p>Join and start your reading spree!</p>
+            </div>
+            <button type="button" class="cta-button">Join now</button>
+        </section>
+    </main>
     <footer>
         <p>Copyright © One More Book 2023</p>
     </footer>
